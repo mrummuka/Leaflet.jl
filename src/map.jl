@@ -35,7 +35,7 @@ function Map(;
     width::Int=900,
     height::Int=500,
     zoom::Int=11,
-    provider=Providers.OSM(),
+    provider=Providers.OpenStreetMap(),
 )
     if layers isa Layer
         layers = [layers]
